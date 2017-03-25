@@ -4,10 +4,15 @@
     <title>Contact Me</title>
   </head>
 
+<div class="page-wrap">
+
+
 <body>
+<!--Contact form-->
   <form name="htmlform" method="post" action="html_form_send.php">
     <table width="450px">
       </tr>
+      <!--Name:Box-->
       <tr>
         <td valign="top">
           <label for="name">Name</label>
@@ -17,7 +22,7 @@
           <input  type="text" name="name" maxlength="50" size="30">
         </td>
       </tr>
-
+      <!--Email:Box-->
       <tr>
         <td valign="top">
           <label for="email">Email</label>
@@ -27,6 +32,7 @@
            <input  type="text" name="email" maxlength="80" size="30">
         </td>
       </tr>
+      <!--Message-->
       <tr>
         <td valign="top">
           <label for="comments">Message</label>
@@ -36,6 +42,7 @@
           <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
         </td>
       </tr>
+      <!--Submit Button-->
       <tr>
         <td colspan="2" style="text-align:center">
           <input type="submit" value="Submit">  
@@ -43,5 +50,23 @@
       </tr>
     </table>
   </form>
+<!--Connect/Social Media-->
+<section>
+  <aside>
+    <header><h1>Connect with Me</h1></header>
+      <a href="https://www.facebook.com/marina.m.james" target="_blank"><img src="https://cloud.githubusercontent.com/assets/26077051/24316155/3fab4528-10c2-11e7-8dca-e8ff288e46e8.png" alt="facebook" height="70px" width="70px"></a>
+      <a href="https://github.com/MarinaMjames" target="_blank"><img src="https://cloud.githubusercontent.com/assets/26077051/24316349/9c29a1c2-10c3-11e7-8d15-036fbcfa27b6.png" alt="github" height="70px" width="70px"></a>
+      <a href="https://www.linkedin.com/in/marinamjames/" target="_blank"><img src="https://cloud.githubusercontent.com/assets/26077051/24316393/f7f7319a-10c3-11e7-8b15-f65736da4d27.png" alt="linkedin" height="70px" width="70px"></a>
+      <a href="http://stackoverflow.com/users/7764662/marinamjames?tab=profile" target="_blank"><img src="https://cloud.githubusercontent.com/assets/26077051/24316923/86b7c3dc-10c8-11e7-8276-376039de2320.png" alt="stackoverflow" height="70px" width="70px"></a>
+  </aside>
+</section>
+<!--footer-->
+<section>
+  <footer class="site-footer"> &copy;Copyright 2017 Marina James</footer>
+</section>
+
+</div>
+
+
 </body>
 </html>
