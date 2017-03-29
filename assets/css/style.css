@@ -1,9 +1,9 @@
 body {
-	background-image: url("https://cloud.githubusercontent.com/assets/26077051/24317828/763f6e42-10d2-11e7-9fbf-11a314efede3.png");
+	background-image: url("https://cloud.githubusercontent.com/assets/26077051/24457129/4574eb36-1463-11e7-9dcc-b9a4d5cd9f14.jpeg");
 }
 
 h1 {
-	color: #4aaaa5;
+	color: #2F4F4F;
 	background-color: #ffffff;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 40px;
@@ -18,8 +18,8 @@ h2 {
    margin: 0 auto;
    width: 250px;
    height: 30px;
-   color: white;
-   background-color: #4aaaa5;
+   color: #FFFAF0;
+   background-color: #2F4F4F;
    text-align: center;
 }
 .font {
@@ -42,7 +42,7 @@ h2 {
 	text-align: center;
 	padding-top: 20px;
 	border-style: dotted;
-	border-color: #4aaaa5;
+	border-color: #2F4F4F;
 	clear: both;
 
 }
@@ -52,9 +52,9 @@ h2 {
 	background-color: #ffffff;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	margin-right: 70px;
-	margin-left: 70px;
-	border-color: #4aaaa5;
+	margin-right: 40px;
+	margin-left: 40px;
+	border-color: #2F4F4F;
 	border-style: dotted;
 }
 
@@ -62,16 +62,9 @@ h2 {
 	float: left;
 	background-color: #ffffff;
 	margin: 30px 70px;
-	border-color: #4aaaa5;
+	border-color: #2F4F4F;
 	border-style: dotted;
 }
-
-.formSub {
-	background-color: #ffffff;
-	text-align: center;
-	margin: 30px;
-}
-
 .displayed {
 	display:block;
 	margin-left: auto;
@@ -84,12 +77,8 @@ h2 {
 	background-size: 100%;
 	width: 100%;
 	border-bottom-style: solid;
-	border-color: #4aaaa5; 
+	border-color: #2F4F4F; 
 	border-width: 1px
-}
-
-.socialMedia {
-	align-content: center;
 }
 
 .topnav {
@@ -110,12 +99,12 @@ h2 {
 	color: black;
 }
 .topnav a:active {
-	background-color: #777777;
+	background-color: #2F4F4F;
 	color: white;
 }
 .namebox {
 	float: left;
-	background-color: #4aaaa5; 
+	background-color: #2F4F4F; 
 	text-align: center;
 	font-size: 40px;
 	width: 30%;	
@@ -171,4 +160,66 @@ h2 {
 	float: left; 
 	position: relative;
 	text-align: center;
+
+}
+.namebox {
+	height: 80px;
+	width: 20%;
+	background-color: #2F4F4F;
+	color: white;
+	margin-left: 70px;
+	padding-top: 10px;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.about {
+	margin-right: 20px;
+	text-align: left;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 40px;
+	color: #2F4F4F;
+	margin-left: 20px;
+	border-bottom-style: solid;
+	border-color: #2F4F4F;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #2F4F4F;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #66CDAA;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 60%;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 70px;
+}
+#subject {
+	height: 200px;
 }

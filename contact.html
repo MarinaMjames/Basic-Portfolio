@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Marina James - Contact Me</title>
+    <!--CSS stylesheet relative link-->
       <link rel="stylesheet" type="text/css" href="assets/css/style.css">
       <!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
   </head>
@@ -11,7 +12,7 @@
 <!--header-->
 <div id="header" class="topnav">
   <!--Logo-->
-  <h1>Marina James</h1>
+  <div class="namebox">Marina James</div>
   <br><br>
     <!--Links in Header-->
     <a href="/Users/MarinaJames/Basic-Portfolio/index.html">About </a>
@@ -21,63 +22,39 @@
 <br>
 <br>
 
-<!--Title-->
-<div id="leftSide">
-<header class="header">
-  <h1>Contact</h1>
-</header>
-<!--Contact form-->
-  <form name="htmlform" method="post" action="html_form_send.php">
-    <table width="450px" class="formSub">
-      </tr>
-      <!--Name:Box-->
-      <tr>
-        <td valign="top">
-          <label for="name" class="font">Name</label>
-        </td>
-        <br>
-        <td valign="top">
-          <input  type="text" name="name" maxlength="50" size="30">
-        </td>
-      </tr>
-      <!--Email:Box-->
-      <tr>
-        <td valign="top">
-          <label for="email" class="font">Email</label>
-          </td>
-          <br>
-        <td valign="top">
-           <input  type="text" name="email" maxlength="80" size="30">
-        </td>
-      </tr>
-      <!--Message-->
-      <tr>
-        <td valign="top">
-          <label for="comments" class="font">Message</label>
-        </td>
-        <br>
-        <td valign="top">
-          <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
-        </td>
-      </tr>
-      <!--Submit Button-->
-      <tr>
-        <td colspan="2">
-          <input type="submit" value="Submit">  
-        </td>
-      </tr>
-    </table>
+<!--Form-->
+
+<div class="container">
+<form method="post" novalidate action="send-email.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="subject">Message</label>
+    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+
+    <input id="submit" type="Submit" value="Submit"></input>
+    <input type="hidden" name="recipient" value="marinajames93@gmail.com">
   </form>
 </div>
+
+
 <!--Connect/Social Media-->
 <div id="Connect">
 <section>
   <aside>
-    <header class="connectHeader"><h1>Connect with Me</h1></header>
-    <br>
+    <header class="connectHeader"><div class="about">Connect with Me</div></header>
+    <br><br><br>
+    <!--Facebook link-->
       <a href="https://www.facebook.com/marina.m.james" target="_blank"><img src="https://cloud.githubusercontent.com/assets/26077051/24316155/3fab4528-10c2-11e7-8dca-e8ff288e46e8.png" alt="facebook" height="70px" width="70px"></a>
+      <!--Github Link-->
       <a href="https://github.com/MarinaMjames" target="_blank"><img src="https://cloud.githubusercontent.com/assets/26077051/24316349/9c29a1c2-10c3-11e7-8d15-036fbcfa27b6.png" alt="github" height="70px" width="70px"></a>
+      <!--LinkedIn Link-->
       <a href="https://www.linkedin.com/in/marinamjames/" target="_blank"><img src="https://cloud.githubusercontent.com/assets/26077051/24316393/f7f7319a-10c3-11e7-8b15-f65736da4d27.png" alt="linkedin" height="70px" width="70px"></a>
+      <!--Stackoverflow Link-->
       <a href="http://stackoverflow.com/users/7764662/marinamjames?tab=profile" target="_blank"><img src="https://cloud.githubusercontent.com/assets/26077051/24316923/86b7c3dc-10c8-11e7-8276-376039de2320.png" alt="stackoverflow" height="70px" width="70px"></a>
   </aside>
 </section>
