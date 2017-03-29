@@ -1,3 +1,4 @@
+/*Background Image*/
 body {
 	background-image: url("https://cloud.githubusercontent.com/assets/26077051/24457129/4574eb36-1463-11e7-9dcc-b9a4d5cd9f14.jpeg");
 }
@@ -37,13 +38,15 @@ h2 {
 	background-color: #666666;
 	bottom: 0;
 	left: 0;
-	right: 0;
 	height: 50px;
 	text-align: center;
 	padding-top: 20px;
-	border-style: dotted;
+	border-top-style: solid;
 	border-color: #2F4F4F;
+	border-width: 10px;
 	clear: both;
+	position: relative;
+    width: 100%;
 
 }
 
@@ -78,7 +81,7 @@ h2 {
 	width: 100%;
 	border-bottom-style: solid;
 	border-color: #2F4F4F; 
-	border-width: 1px
+	border-width: 3px
 }
 
 .topnav {

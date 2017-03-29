@@ -3,8 +3,9 @@
   <head>
     <title>Marina James - Contact Me</title>
     <!--CSS stylesheet relative link-->
+      <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
       <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-      <!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
+      
   </head>
 
 
@@ -15,9 +16,9 @@
   <div class="namebox">Marina James</div>
   <br><br>
     <!--Links in Header-->
-    <a href="/Users/MarinaJames/Basic-Portfolio/index.html">About </a>
-    <a href="/Users/MarinaJames/Basic-Portfolio/portfolio.html">Portfolio </a>
-    <a href="/Users/MarinaJames/Basic-Portfolio/contact.html">Contact </a>
+    <a href="index.html">About </a>
+    <a href="portfolio.html">Portfolio </a>
+    <a href="contact.html">Contact </a>
 </div>
 <br>
 <br>
@@ -25,7 +26,7 @@
 <!--Form-->
 
 <div class="container">
-<form method="post" novalidate action="send-email.php">
+<form method="post" action="mailto:marinajames93" enctype="text/plain">
 
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -37,7 +38,6 @@
     <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
 
     <input id="submit" type="Submit" value="Submit"></input>
-    <input type="hidden" name="recipient" value="marinajames93@gmail.com">
   </form>
 </div>
 
