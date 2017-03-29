@@ -29,10 +29,8 @@ h2 {
 }
 
 .connectHeader {
-	margin-bottom: 5px;
 	background-color: #ffffff;
 	float: right;
-
 }
 
 .site-footer {
@@ -42,8 +40,9 @@ h2 {
 	right: 0;
 	height: 50px;
 	text-align: center;
-	border-top: 30px;
-	border-color: #777777;
+	padding-top: 20px;
+	border-style: dotted;
+	border-color: #4aaaa5;
 	clear: both;
 
 }
@@ -55,13 +54,16 @@ h2 {
 	margin-bottom: 30px;
 	margin-right: 70px;
 	margin-left: 70px;
+	border-color: #4aaaa5;
+	border-style: dotted;
 }
 
 #leftSide {
 	float: left;
 	background-color: #ffffff;
-	border-width: 10px;
 	margin: 30px 70px;
+	border-color: #4aaaa5;
+	border-style: dotted;
 }
 
 .formSub {
