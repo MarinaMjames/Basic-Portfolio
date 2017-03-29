@@ -184,6 +184,7 @@ h2 {
 	margin-left: 20px;
 	border-bottom-style: solid;
 	border-color: #2F4F4F;
+	border-width: 3px;
 }
 
 /* Style inputs with type="text", select elements and textareas */
