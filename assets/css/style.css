@@ -83,6 +83,9 @@ h2 {
 	background-color: #ffffff;
 	background-size: 100%;
 	width: 100%;
+	border-bottom-style: solid;
+	border-color: #4aaaa5; 
+	border-width: 1px
 }
 
 .socialMedia {
